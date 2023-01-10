@@ -15,5 +15,4 @@ int gcd(int x, int y){
         return y;
     }else
         return gcd(y,x%y);
-
 }
